@@ -9,12 +9,11 @@ import android.widget.SeekBar;
 import androidx.fragment.app.Fragment;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
 import com.blueradix.android.monstersapp2final.R;
-import com.blueradix.android.monstersapp2final.databinding.FragmentAddMonsterScrollingBinding;
+import com.blueradix.android.monstersapp2final.databinding.AddMonsterScrollingFragmentBinding;
 import com.blueradix.android.monstersapp2final.monster.Monster;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -23,7 +22,7 @@ import java.util.Random;
 
 public class AddMonsterScrollingFragment extends Fragment {
 
-    private FragmentAddMonsterScrollingBinding binding;
+    private AddMonsterScrollingFragmentBinding binding;
     private Integer scarinessValue = 0;
     private Monster monster;
 
@@ -37,7 +36,7 @@ public class AddMonsterScrollingFragment extends Fragment {
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
-        binding = FragmentAddMonsterScrollingBinding.inflate(inflater, container, false);
+        binding = AddMonsterScrollingFragmentBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }

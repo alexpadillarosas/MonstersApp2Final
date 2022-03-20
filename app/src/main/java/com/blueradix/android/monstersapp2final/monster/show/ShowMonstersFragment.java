@@ -53,7 +53,6 @@ public class ShowMonstersFragment extends Fragment {
             mViewModel.insert(monster);
         }
 
-        //RecyclerView recyclerView = binding.monstersRecyclerView;
         binding.monstersRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         binding.monstersRecyclerView.setHasFixedSize(true);
 

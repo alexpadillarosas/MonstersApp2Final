@@ -18,7 +18,7 @@
         android:id="@+id/addMonsterScrollingFragment"
         android:name="com.blueradix.android.monstersapp2final.monster.add.AddMonsterScrollingFragment"
         android:label="fragment_add_monster_scrolling"
-        tools:layout="@layout/fragment_add_monster_scrolling" >
+        tools:layout="@layout/add_monster_scrolling_fragment" >
         <action
             android:id="@+id/action_addMonsterScrollingFragment_to_showMonstersFragment"
             app:destination="@id/showMonstersFragment"

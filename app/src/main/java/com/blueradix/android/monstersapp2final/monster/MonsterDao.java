@@ -22,7 +22,6 @@ public interface MonsterDao {
     @Delete
     void delete(Monster monster);
 
-    //
     @Query("SELECT * FROM MONSTER")
     LiveData<List<Monster>> findAll();
 
