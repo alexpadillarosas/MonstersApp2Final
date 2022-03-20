@@ -28,7 +28,7 @@
                 android:id="@+id/monsterImageView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:background="#00B8D4"
+                android:background="@color/purple_200"
                 android:scaleType="centerInside"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
