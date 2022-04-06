@@ -63,7 +63,7 @@ public class ShowMonstersFragment extends Fragment {
             @Override
             public void onChanged(List<Monster> monsters) {
                 //update RecyclerView
-                adapter.setMonsters(monsters);
+                adapter.submitList(monsters);
             }
         };
         mViewModel.getAllMonsters().observe(getViewLifecycleOwner(), allMonstersObserver);
